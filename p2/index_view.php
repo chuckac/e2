@@ -4,7 +4,7 @@
 <head>
 
     <link rel="stylesheet" href="main.css">
-
+    <div id='title'>Project 2: Dragon Battle!</div>
     <title>Project 2: Dragon Battle!</title>
     <meta charset='utf-8'>
 
