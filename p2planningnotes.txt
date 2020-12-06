@@ -1,0 +1,54 @@
+Decide your power: Ice, Fire, Wind, Water, Heart
+
+Based power has specific values associated with it. 
+
+Ice = 10
+Fire = 12
+Wind = 7
+Water = 15
+Heart = 18
+
+User selects power and then rolls their 20-sided die for a bonus
+
+Power + Die = PlayerAttach
+
+
+
+Dragon Changes
+
+Project 3 add weaknesses
+
+Project 2
+Adjust Power Levels of the Dragons
+Move the accolades into an if/else statement in the HTML
+Add two new types of dragons
+Add images for each dragon that are displayed for the battle results.
+Add Paladin Cartoon
+
+
+$playerpower =[
+    'power1' => ['playerpower' => 'Ice', 'powerbonus' => 12, 'powerattack' => 'blizzard'],
+    'power2' => ['playerpower' => 'Fire', 'powerbonus' => 2, 'powerattack' => 'cheap gas station lighter'],
+    'power3' => ['playerpower' => 'Wind', 'powerbonus' => 15, 'powerattack' => 'mighty sneeze due to allergies'],
+    'power4' => ['playerpower' => 'Water', 'powerbonus' => 10, 'powerattack' => 'dirty bath water'],
+    'power5' => ['playerpower' => 'Heart', 'powerbonus' => 25, 'powerattack' => 'hugs from a million hippies'],
+
+index_view.php radio buttons: 
+
+
+  <input type='radio' name='pathchoice' value='ice' id='ice'><label for='ice'>Path of Cold Ice</label><br>
+        <input type='radio' name='pathchoice' value='fire' id='fire'><label for='fire'>Path of Toasty Fire</label><br>
+        <input type='radio' name='pathchoice' value='wind' id='wind'><label for='wind'>Path of the Gentle
+            Breeze</label><br>
+        <input type='radio' name='pathchoice' value='water' id='water'><label for='water'>Path of the Water
+            Droplet</label><br>
+        <input type='radio' name='pathchoice' value='heart' id='heart'><label for='heart'>Path of Peace &
+            Love</label><br>
+
+
+accolades
+$playeraccolade = 'Wah. Wah. Wah. Waaaaaaaaah.';
+$playeraccolade = 'You are dubbed Sir PHP - Slayer of the Digital Serpent!';
+$playeraccolade = 'Well, this is awkward...  I guess go and do some good as a team.';
+
+]
