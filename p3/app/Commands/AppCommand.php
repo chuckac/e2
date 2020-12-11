@@ -18,7 +18,7 @@ class AppCommand extends Command
             'playerroll' => 'int',
             'dragon' => 'varchar(255)',
             'dragonattack' => 'int',
-            'outcome' => 'varchar(5)', # win, lose, tie
+            'outcome' => 'varchar(255)', # win, lose, tie
             'time' => 'timestamp' 
         ]);
     }
@@ -52,11 +52,11 @@ class AppCommand extends Command
         $dragonattack = $battledragon['attackpower'] + $dicerolldragon;
 
         if ($playerattack > $dragonattack) {
-            $playeroutcome = 'win';
+            $playeroutcome = 'The wizard wins!';
         } elseif ($playerattack < $dragonattack) {
-            $playeroutcome = 'lose';
+            $playeroutcome = 'The wizard lost!';
         } else {
-            $playeroutcome = 'tie';
+            $playeroutcome = 'There was a tie.';
         }
         
 
