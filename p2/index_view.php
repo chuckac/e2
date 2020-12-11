@@ -39,7 +39,7 @@
 
     <br>
 
-    <form method='GET' action='process.php'>
+    <form method='POST' action='process.php'>
 
         <input type='radio' name='pathchoice' value='ice' id='ice' checked><label for='ice'>Path of Cold Ice</label><br>
         <input type='radio' name='pathchoice' value='fire' id='fire'><label for='fire'>Path of Toasty Fire</label><br>
